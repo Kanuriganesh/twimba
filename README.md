@@ -1,19 +1,30 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🐦 Twimba
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Twimba is a minimal Twitter-like app built using vanilla JavaScript. Users can like, retweet, reply to, add, and delete tweets. Tweets persist using `localStorage`.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🚀 Features
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- ✅ Add new tweets
+- ❤️ Like/unlike tweets
+- 🔁 Retweet/unretweet
+- 💬 Show/hide replies
+- 🗑️ Delete tweets
+- 💾 Data persistence with `localStorage`
 
-Happy Coding!
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Font Awesome (icons)
+- Google Fonts (Roboto)
+
+## 📁 Project Structure
+
+
+## 📦 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/twimba.git
+   cd twimba
