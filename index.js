@@ -11,7 +11,6 @@ Challenge:
 3. We could improve index.js by moving one line
    of code to a better position. Find it and move it!
 */
-
 document.addEventListener('click', function(e){
     if(e.target.dataset.like){
        handleLikeClick(e.target.dataset.like) 
@@ -48,7 +47,8 @@ function handleLikeClick(tweetId){
     else{
         targetTweetObj.likes++ 
     }
-    targetTweetObj.isLiked = !targetTweetObj.isLiked
+    targetTweetObj.isLiked = !targetTweetObj.isLiked   
+      localStorage.setItem("tweets",JSON.stringify(tweetsData));
     render()
 }
 
@@ -63,7 +63,8 @@ function handleRetweetClick(tweetId){
     else{
         targetTweetObj.retweets++
     }
-    targetTweetObj.isRetweeted = !targetTweetObj.isRetweeted
+    targetTweetObj.isRetweeted = !targetTweetObj.isRetweeted   
+      localStorage.setItem("tweets",JSON.stringify(tweetsData));
     render() 
 }
 
